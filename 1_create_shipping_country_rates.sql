@@ -16,5 +16,6 @@ SELECT DISTINCT shipping_country, shipping_country_base_rate
   FROM public.shipping s;
 
 
---SELECT *
---  FROM public.shipping_country_rates sr;
+SELECT *
+  FROM public.shipping_country_rates sr
+ LIMIT 10;
